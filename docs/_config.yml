@@ -84,7 +84,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: "/assets/logo/logo.png" # Default image for sharing
+      image: "/assets/logos/logo.png" # Default image for sharing
   -
     scope:
       path: ""
