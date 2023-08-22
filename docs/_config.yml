@@ -101,7 +101,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en # Set the site language
 title: Justin Yu # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/logo.png" # Site logo, also used in jekyll-seo-tag
 description: "Personal website for Justin Yu (fractal161)" # Site description and default description, also used in jekyll-seo-tag
 domain: fractal161.github.io
 url: "https://fractal161.github.io" # Site url, also used in jekyll-seo-tag
@@ -120,12 +120,12 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
   16: '/assets/logos/logo@16px.png'
   32: '/assets/logos/logo@32px.png'
-  96: '/assets/logos/logo@96px.png'
-  120: '/assets/logos/logo@120px.png'
-  144: '/assets/logos/logo@144px.png'
-  180: '/assets/logos/logo@180px.png'
-  512: '/assets/logos/logo@512px.png'
-  1024: '/assets/logos/logo@1024px.png'
+#  96: '/assets/logos/logo@96px.png'
+#  120: '/assets/logos/logo@120px.png'
+#  144: '/assets/logos/logo@144px.png'
+#  180: '/assets/logos/logo@180px.png'
+#  512: '/assets/logos/logo@512px.png'
+#  1024: '/assets/logos/logo@1024px.png'
 
 # 9. Site navigation
 navigation_header:
