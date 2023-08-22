@@ -1,0 +1,25 @@
+---
+title: false
+styles: true
+---
+
+$accentColour: #0058f8;
+$linkColour: #0058f8;
+$hoverColour: #b53120;
+
+$bodytype: (
+  font-family: "Oxanium, serif",
+  regular: 400,
+  bold: 700,
+  italic: italic,
+  cap-height: 0.75
+);
+
+$headingtype: (
+  font-family: "Oxanium, serif",
+  regular: 400,
+  bold: 700,
+  cap-height: 0.75
+);
+
+@import "alembic";
