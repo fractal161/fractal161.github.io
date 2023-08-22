@@ -3,7 +3,7 @@ title: false
 styles: true
 ---
 
-$backgroundColour: #222;
+$backgroundColour: #181818;
 $accentColour: #0058f8;
 $codeBackgroundColour: #282c34; // taken from onedark
 
@@ -33,3 +33,10 @@ $headingtype: (
 // taken from https://github.com/mgyongyosi/OneDarkJekyll
 @import "./onedark.css";
 @import "alembic";
+
+// override for side margins
+@media screen and (min-width: 40em) {
+  .content {
+    width:80%
+  }
+}
