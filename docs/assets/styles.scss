@@ -30,6 +30,9 @@ $headingtype: (
   cap-height: 0.75
 );
 
+// should be taken care of in _config.yml but isn't for some reason sigh
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap');
+
 // taken from https://github.com/mgyongyosi/OneDarkJekyll
 @import "./onedark.css";
 @import "alembic";
