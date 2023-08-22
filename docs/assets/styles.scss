@@ -5,8 +5,12 @@ styles: true
 
 $backgroundColour: #222;
 $accentColour: #0058f8;
+$codeBackgroundColour: #282c34; // taken from onedark
 
-$headingColour: #474555;
+// TODO: make footer separate from header color (maybe #474555?)
+$headingColour: #abb2bf; // also from onedark
+// TODO: this sets both the selected page and the footer text, maybe not ideal
+$captionColour: #667;
 $bodyColour: #bbb;
 $linkColour: #0058f8;
 $hoverColour: #b53120;
@@ -26,4 +30,6 @@ $headingtype: (
   cap-height: 0.75
 );
 
+// taken from https://github.com/mgyongyosi/OneDarkJekyll
+@import "./onedark.css";
 @import "alembic";
