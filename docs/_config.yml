@@ -63,7 +63,7 @@ social: # jekyll-seo-tag > social overrides
 sass:
   style: compressed # Style compression
   sass_dir: assets
-permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+permalink: /blog/:title  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: Anerica/New_York # Timezone for blog posts and alike
 
@@ -137,8 +137,8 @@ navigation_header:
   url: /projects/
 - title: Blog
   url: /blog/
-#- title: Categories
-#  url: /categories/
+- title: Categories
+  url: /categories/
 #- title: Search
 #  url: /search/
 #- title: Fork Alembic

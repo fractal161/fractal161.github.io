@@ -4,6 +4,7 @@
 
 layout: page
 title: Justin Yu
+aside: true
 ---
 Aspiring software engineer and current MIT student (class of 2025).
 
