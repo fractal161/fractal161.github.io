@@ -38,8 +38,15 @@ $headingtype: (
 @import "alembic";
 
 // override for side margins
+
 @media screen and (min-width: 40em) {
   .content {
-    width:80%
+    width: 80%
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .content {
+    width: 60%
   }
 }
