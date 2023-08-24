@@ -175,8 +175,7 @@ We could stop here, but there are also a number of addresses that are used, but 
 0x4A: completedRow, which is bounded by the board height, or 20
 0x4F: holdDownPoints, which is bounded by the board height, or 20
       there's a glitch that can allow pushdown points to stack, but this can
-      only happen at the start of each game, and is still an upper bound
-      of 2*20 = 40
+      only happen at the start of each game, meaning scores are still fine
 0x50: low byte of lines, which is between 0x00 and 0x99 inclusive
 0x53: low byte of score, which is between 0x00 and 0x99 inclusive
 0x54: middle byte of score, which is between 0x00 and 0x99 inclusive
@@ -376,7 +375,7 @@ In summary, we should all ditch `XNAOOK` and use `AEEPSK` instead :D.
 
 *Edit 8/24/2023: Added footnote about the more complex history of XNEOOGEX, as communicated by Kirby703.*
 
-*Also, received some corrections and suggestions from [maya][maya], who reminded me that player 2 variables are never written to! This bumps the total from 1148 to 1208.*
+*Also, received some corrections and suggestions from [maya][maya] and [Kitaru][kitaru]. In particular, maya reminded me that player 2 variables are never written to! This bumps the total from 1148 to 1208.*
 
 ### Notes
 
@@ -397,6 +396,7 @@ In summary, we should all ditch `XNAOOK` and use `AEEPSK` instead :D.
 [gg-calc]: https://games.technoplaza.net/ggencoder/js/
 [kirby]: https://cohost.org/Kirby703
 [maya]: https://negative-seven.github.io/
+[kitaru]: https://twitch.tv/kitaru
 [ctm]: https://discord.gg/monthlytetris
 [chebyshev]: https://en.wikipedia.org/wiki/Chebyshev_distance
 [meatfighter-tetris]: https://meatfighter.com/nintendotetrisai/
