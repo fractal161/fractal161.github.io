@@ -36,3 +36,6 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 #no clue why this is needed but apparently it is
 gem "kramdown-parser-gfm"
 gem "webrick", "~> 1.8"
+
+# redirect from btpg
+gem "jekyll-redirect-from"
