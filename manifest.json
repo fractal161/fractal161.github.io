@@ -1,0 +1,22 @@
+{
+  "lang": "en",
+  "name": "Justin Yu",
+  "short_name": "JustinYu",
+  "theme_color": "#24292e",
+  "background_color": "#ffffff",
+  
+    "icons": [
+      
+        {
+          "src": "/assets/logos/logo@16px.png",
+          "sizes": "16x16"
+        },
+      
+        {
+          "src": "/assets/logos/logo@32px.png",
+          "sizes": "32x32"
+        }
+      
+    ],"start_url": "/",
+  "display": "standalone"
+}
